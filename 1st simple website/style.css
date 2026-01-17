@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400..700;1,400..700&family=Ribeye&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: "Roboto", sans-serif;
+    background-color: #333;
+    color: white;
+}
+
+.logo{
+    font-family: "Ribeye";
+
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.header {
+}
+.logo {
+}
+.header_nav {
+}
+.btn {
+}
+
