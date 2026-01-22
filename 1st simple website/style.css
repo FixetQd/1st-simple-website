@@ -4,24 +4,100 @@ body{
     font-family: "Roboto", sans-serif;
     background-color: #333;
     color: white;
+    margin: 0;
+    padding: 0;
+
 }
 
 .logo{
     font-family: "Ribeye";
-
+    font-size: 24px;
 }
 
 a{
     color: white;
-    text-decoration: none;
+    text-decoration: none; 
+}
+
+.Hero{
+    width: 100%;
+  min-height: 100vh;                         
+  background-image: url("images/1hero.png");
+  background-size: cover;                    
+  background-position: center;
+  background-repeat: no-repeat;;
 }
 
 .header {
+    display: flex;
+    width:70%;
+    margin: 0 auto;
+    position: relative;
+    top:2vh;
+
 }
 .logo {
+    align-self: center;
 }
-.header_nav {
+.header_nav ul {
+    display: flex;
+    gap: 5vh;
+    list-style: none;
+    font-family: "Roboto";
+    font-size: 18px;
 }
+
+.header_nav{
+    margin: 0 auto;
+    display: flex;
+    align-self: center;
+
+}
+
 .btn {
+    width: 163px;
+    height: 51px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(184, 55, 55);
+    align-self: center;
+    font-size: 16px;
 }
+
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    width:70%;
+    margin: 0 auto;
+    position: relative;
+    top: 20vh;
+    left: 5vh ;
+}
+.hero_h1{
+    font-family: "Gelasio";
+    font-size: 65px;
+    font-weight: bold;
+    margin: 0;
+    line-height: 120%;
+    margin-bottom: 30px;
+}
+.hero_h2{
+    font-family: "Roboto";
+    font-size: 18px;
+    opacity: 60%;
+    align-self: flex-start;
+    line-height: 160%;
+    font-weight: 400;
+}
+.hero_btn{
+    width: 187px;
+    height: 59px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(184, 55, 55);
+    color: white;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
 
