@@ -135,7 +135,13 @@ a{
 }
 
 .grid_locations{
-    display: flex;
+    display: grid;
+    display: grid;
+  
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto;
+  grid-auto-flow: row;
+  gap: 20px;
     align-content: center;
     width: 100%;
     height: 500px;
@@ -144,17 +150,77 @@ a{
 }
 
 .stambul{
-    width: 30%;
+    width: 360px;
     height: 500px;
+    border: 0.5px solid rgb(0, 0, 0, 10%);
+    border-radius: 10px;
+    box-shadow: 0.5px 0.5px 5px gray ;
+}
+
+.stambul img{
+    width: 360px;
+    object-fit: cover;
 }
 
 .kuala{
-    width: 30%;
+    width: 360px;
     height: 500px;
+    border: 0.5px solid rgb(0, 0, 0, 10%);
+    border-radius: 10px;
+    box-shadow: 0.5px 0.5px 5px gray ;
 }
 
 .seoul{
-    width: 30%;
+    width: 360px;
     height: 500px;
+    border: 0.5px solid rgb(0, 0, 0, 10%);
+    border-radius: 10px;
+    box-shadow: 0.5px 0.5px 5px gray ;
+    
+}
 
+.Stambul_popular_text{
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 18px;
+    opacity: 60%;
+}
+
+.Stanbul_Header{
+    font-family: "Gelasio";
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    opacity: 100%;
+
+}
+
+.kuala_header{
+    font-family: "Gelasio";
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    opacity: 100%;
+}
+
+.kuala_popular_text{
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 18px;
+    opacity: 60%;
+}
+
+.seoul_header{
+    font-family: "Gelasio";
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    opacity: 100%;
+}
+
+.seoul_popular_text{
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 18px;
+    opacity: 60%;
 }
