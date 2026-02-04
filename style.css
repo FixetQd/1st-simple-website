@@ -18,11 +18,11 @@ body{
 
 /* ===== GLOBAL ===== */
 :root{
-  --container: 1100px;
-  --pad: 5vw;
-  --red: rgb(184, 55, 55);
-  --shadow: 0 10px 35px rgba(0,0,0,.12);
-  --card-radius: 14px;
+  container: 1100px;
+  pad: 5vw;
+  red: rgb(184, 55, 55);
+  shadow: 0 10px 35px rgba(0,0,0,.12);
+  card-radius: 14px;
 }
 
 a{
@@ -378,3 +378,4 @@ a{
     max-width: 340px;
   }
 }
+
