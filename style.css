@@ -3,30 +3,17 @@
 /* ===== RESET ===== */
 *,
 *::before,
-<<<<<<< HEAD
-*::after {
-  box-sizing: border-box;
-}
-
-img {
-  max-width: 100%;
-  display: block;
-}
-=======
 *::after { box-sizing: border-box; }
 
 html { scroll-behavior: smooth; }
 
 img { max-width: 100%; display: block; }
->>>>>>> fb57726f2eba0e34eb7f662be5913fec74bd4ecc
 
 body{
   font-family: "Roboto", sans-serif;
   color: white;
   margin: 0;
   padding: 0;
-<<<<<<< HEAD
-=======
 }
 
 /* ===== GLOBAL ===== */
@@ -36,95 +23,39 @@ body{
   --red: rgb(184, 55, 55);
   --shadow: 0 10px 35px rgba(0,0,0,.12);
   --card-radius: 14px;
->>>>>>> fb57726f2eba0e34eb7f662be5913fec74bd4ecc
 }
 
-/* ===== GLOBAL ===== */
 a{
   color: white;
-<<<<<<< HEAD
-  text-decoration: none; 
-=======
   text-decoration: none;
->>>>>>> fb57726f2eba0e34eb7f662be5913fec74bd4ecc
 }
 
 .btn,
 .hero_btn{
   cursor: pointer;
-<<<<<<< HEAD
-  transition: opacity 0.2s ease;
-=======
   transition: opacity .2s ease, transform .2s ease;
->>>>>>> fb57726f2eba0e34eb7f662be5913fec74bd4ecc
 }
 
 .btn:hover,
 .hero_btn:hover{
-<<<<<<< HEAD
-  opacity: 0.8;
-=======
   opacity: .85;
   transform: translateY(-1px);
->>>>>>> fb57726f2eba0e34eb7f662be5913fec74bd4ecc
 }
 
 .btn:active,
 .hero_btn:active{
-<<<<<<< HEAD
-  opacity: 0.6;
-=======
   opacity: .7;
   transform: translateY(0);
->>>>>>> fb57726f2eba0e34eb7f662be5913fec74bd4ecc
 }
 
 /* ===== HERO ===== */
 .Hero{
   width: 100%;
-<<<<<<< HEAD
-  min-height: 100vh;                         
-=======
   min-height: 100vh;
->>>>>>> fb57726f2eba0e34eb7f662be5913fec74bd4ecc
   background-image: url("images/1hero.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-<<<<<<< HEAD
-}
-
-/* ===== HEADER ===== */
-.header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: min(1100px, 90%);
-  margin: 0 auto;
-  padding-top: 16px;
-}
-
-.logo{
-  font-family: "Ribeye";
-  font-size: 24px;
-}
-
-.header_nav ul {
-  display: flex;
-  gap: 32px;
-  list-style: none;
-  font-size: 18px;
-  padding: 0;
-  margin: 0;
-}
-
-.btn {
-  width: 163px;
-  height: 51px;
-  border: none;
-  border-radius: 5px;
-  background-color: rgb(184, 55, 55);
-=======
 
   display: flex;
   flex-direction: column;
@@ -175,18 +106,12 @@ a{
   border: none;
   border-radius: 10px;
   background-color: var(--red);
->>>>>>> fb57726f2eba0e34eb7f662be5913fec74bd4ecc
   font-size: 16px;
   color: white;
 }
 
 /* ===== HERO TEXT ===== */
 .hero-text{
-<<<<<<< HEAD
-  width: min(1100px, 90%);
-  margin: 0 auto;
-  padding-top: clamp(90px, 20vh, 180px);
-=======
   width: min(var(--container), calc(100% - var(--pad)*2));
   margin: 0 auto;
 
@@ -195,77 +120,47 @@ a{
   padding-bottom: 50px;
 
   text-shadow: 0 10px 30px rgba(0,0,0,.35);
->>>>>>> fb57726f2eba0e34eb7f662be5913fec74bd4ecc
 }
 
 .hero_h1{
   font-family: "Gelasio";
-<<<<<<< HEAD
-  font-size: clamp(34px, 6vw, 65px);
-  font-weight: 700;
-  margin: 0 0 24px 0;
-  line-height: 120%;
-=======
   font-size: clamp(34px, 6vw, 66px);
   font-weight: 700;
   margin: 0 0 20px 0;
   line-height: 120%;
   max-width: 18ch;
->>>>>>> fb57726f2eba0e34eb7f662be5913fec74bd4ecc
 }
 
 .hero_h2{
   font-size: clamp(14px, 2.2vw, 18px);
-<<<<<<< HEAD
-  opacity: 0.6;
-  line-height: 160%;
-  max-width: 60ch;
-=======
   opacity: .7;
   line-height: 160%;
   font-weight: 400;
   max-width: 60ch;
   margin: 0;
->>>>>>> fb57726f2eba0e34eb7f662be5913fec74bd4ecc
 }
 
 .hero_btn{
   width: 187px;
   height: 59px;
   border: none;
-<<<<<<< HEAD
-  border-radius: 5px;
-  background-color: rgb(184, 55, 55);
-  color: white;
-  font-size: 16px;
-  margin-top: 32px;
-=======
   border-radius: 12px;
   background-color: var(--red);
   color: white;
   font-size: 16px;
   margin-top: 28px;
->>>>>>> fb57726f2eba0e34eb7f662be5913fec74bd4ecc
 }
 
 /* ===== POPULAR SECTION ===== */
 .popular{
   color: black;
-<<<<<<< HEAD
-  width: min(1100px, 92%);
-=======
   width: min(var(--container), 92%);
->>>>>>> fb57726f2eba0e34eb7f662be5913fec74bd4ecc
   margin: clamp(40px, 8vh, 120px) auto;
 }
 
 .popular_txt_1{
   text-align: center;
-<<<<<<< HEAD
-  font-weight: 500;
-=======
   font-weight: 600;
->>>>>>> fb57726f2eba0e34eb7f662be5913fec74bd4ecc
   font-size: clamp(28px, 4vw, 43px);
   font-family: "Gelasio";
   margin: 0;
@@ -274,42 +169,22 @@ a{
 .popular_txt_2{
   text-align: center;
   font-size: clamp(14px, 2.2vw, 18px);
-<<<<<<< HEAD
-  font-family: "Roboto";
-  opacity: 0.6;
-  margin: 12px auto 40px;
-=======
   opacity: .6;
   margin: 12px auto 42px;
->>>>>>> fb57726f2eba0e34eb7f662be5913fec74bd4ecc
   max-width: 60ch;
 }
 
 /* ===== GRID ===== */
 .grid_locations{
   display: grid;
-<<<<<<< HEAD
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 20px;
-=======
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 22px;
->>>>>>> fb57726f2eba0e34eb7f662be5913fec74bd4ecc
 }
 
 /* ===== CARDS ===== */
 .stambul,
 .kuala,
 .seoul{
-<<<<<<< HEAD
-  border: 0.5px solid rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
-  box-shadow: 0.5px 0.5px 5px gray;
-  overflow: hidden;
-  background: white;
-}
-
-=======
   border: 1px solid rgba(0,0,0,.10);
   border-radius: var(--card-radius);
   overflow: hidden;
@@ -326,16 +201,11 @@ a{
   box-shadow: 0 18px 45px rgba(0,0,0,.16);
 }
 
->>>>>>> fb57726f2eba0e34eb7f662be5913fec74bd4ecc
 .stambul img,
 .kuala img,
 .seoul img{
   width: 100%;
-<<<<<<< HEAD
-  aspect-ratio: 3 / 4;
-=======
   aspect-ratio: 4 / 5;
->>>>>>> fb57726f2eba0e34eb7f662be5913fec74bd4ecc
   object-fit: cover;
 }
 
@@ -345,17 +215,10 @@ a{
 .seoul_header{
   font-family: "Gelasio";
   font-size: 24px;
-<<<<<<< HEAD
-  font-weight: 600;
-  text-align: center;
-  margin: 16px 0 8px;
-  color: black;
-=======
   font-weight: 650;
   text-align: center;
   margin: 16px 0 8px;
   color: #111;
->>>>>>> fb57726f2eba0e34eb7f662be5913fec74bd4ecc
 }
 
 .Stambul_popular_text,
@@ -363,35 +226,6 @@ a{
 .seoul_popular_text{
   text-align: center;
   font-size: 18px;
-<<<<<<< HEAD
-  opacity: 0.6;
-  margin-bottom: 20px;
-  color: black;
-}
-
-/* ===== MEDIA QUERIES ===== */
-@media (max-width: 900px){
-  .header_nav ul{
-    gap: 20px;
-    font-size: 16px;
-  }
-
-  .btn{
-    width: 140px;
-    height: 46px;
-  }
-}
-
-@media (max-width: 650px){
-  .header{
-    flex-direction: column;
-    gap: 14px;
-  }
-
-  .header_nav ul{
-    flex-wrap: wrap;
-    justify-content: center;
-=======
   opacity: .65;
   margin: 0 16px 20px;
   color: #111;
@@ -537,15 +371,10 @@ a{
   .grid_locations{
     grid-template-columns: 1fr;
     gap: 18px;
->>>>>>> fb57726f2eba0e34eb7f662be5913fec74bd4ecc
   }
 
   .hero_btn{
     width: 100%;
-<<<<<<< HEAD
-    max-width: 320px;
-=======
     max-width: 340px;
->>>>>>> fb57726f2eba0e34eb7f662be5913fec74bd4ecc
   }
 }
